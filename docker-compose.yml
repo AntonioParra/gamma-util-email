@@ -1,0 +1,13 @@
+name: email
+
+services:
+  mail:
+    container_name: util-email
+    build:
+      dockerfile: Dockerfile
+    networks:
+      - gamma-network
+
+networks:
+  gamma-network:
+    external: true
