@@ -1,8 +1,8 @@
-name: email
+name: gamma-email
 
 services:
   mail:
-    container_name: util-email
+    container_name: gamma-util-email
     build:
       dockerfile: Dockerfile
     networks:
